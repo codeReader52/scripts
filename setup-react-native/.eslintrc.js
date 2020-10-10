@@ -1,6 +1,8 @@
 module.exports = {
   root: true,
-  extends: ['@react-native-community', 'eslint:recommended', 'google', 'react-hooks'],
+  parser: '@typescript-eslint/parser',
+  extends: ['@react-native-community', 'eslint:recommended', 'google', 'plugin:react/recommended'],
+  plugins: ['react', '@typescript-eslint', 'react-hooks'],
   rules: {
     'comma-dangle': ['error', 'never'],
     'quote-props': ['error', 'as-needed'],
