@@ -44,6 +44,7 @@ yarn add --dev typescript
 yarn add --dev @types/react @types/react-native
 yarn add --dev eslint eslint-config-google
 yarn add --dev react-native-typescript-transformer
+yarn add --dev eslint-plugin-react-hooks
 
 cp $current_location/.eslintrc.js .
 cp $current_location/.prettierrc.js .
