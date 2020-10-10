@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ['@react-native-community', 'eslint:recommended', 'google'],
+  extends: ['@react-native-community', 'eslint:recommended', 'google', 'react-hooks'],
   rules: {
     'comma-dangle': ['error', 'never'],
     'quote-props': ['error', 'as-needed'],
