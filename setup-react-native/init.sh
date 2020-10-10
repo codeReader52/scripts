@@ -42,6 +42,7 @@ cd $app_name
 
 yarn add --dev typescript @types/react @types/react-native react-native-typescript-transformer
 yarn add --dev eslint eslint-config-google eslint-plugin-react eslint-plugin-react-hooks
+yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser
 
 
 cp $current_location/.eslintrc.js .
