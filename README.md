@@ -3,6 +3,7 @@
 ### Setup-react-native
 
 Prerequisite: have `yarn` installed globally.
+If on ubuntu or other unix systems, might require super user permission since the script will install `expo-cli` globally.
 
 1. Run: `./init.sh project_name optional_folder_to_put_project_in`
 2. In the interactive prompt, recommend to select `Typescript` blank in `Managed` workflow
